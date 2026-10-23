@@ -1,0 +1,1 @@
+in this question first we have to count the how many time does the char appear then if char appear is even then count++ direct add or agar odd hai to -1 karenge then or ek cheez ckeck karenge ki odd hai to odd count ko 1 kar do to beech me ek charrecter aa jayega
