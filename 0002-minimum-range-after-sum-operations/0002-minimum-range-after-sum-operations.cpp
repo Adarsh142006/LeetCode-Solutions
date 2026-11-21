@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minRange(int a, int b, int c) {
-        vector<int> lomirevatu = {a, b, c};
+        vector<int> l = {a, b, c};
         int ans = max({a, b, c}) - min({a, b, c});
         ans = min(ans, (b + c) - min(b, c));
         ans = min(ans, (a + c) - min(a, c));
