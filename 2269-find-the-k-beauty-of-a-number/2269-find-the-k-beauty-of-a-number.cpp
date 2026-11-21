@@ -29,6 +29,32 @@ public:
         return count;
     }
 };
+/*
+class Solution {
+public:
+    int divisorSubstrings(int num, int k) {
+        int j = 0;
+        int count = 0;
+        string s = to_string(num);
+        int n = s.length();
+        long long window = 0;
+        long long mod = round(pow(10, k - 1));
+
+        while (j < n) {
+            window = window * 10 + (s[j] - '0');
+            if (j >= k - 1) {
+                if (window != 0 && num % window == 0) {
+                    count++;
+                }
+                window = window % mod;
+            }
+            j++;
+        }
+        return count;
+    }
+};
+*/
+
 
 // Synced seamlessly with LeetHub Pro
 // Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
